@@ -1,0 +1,5 @@
+# Training + evaluation on the cluster (data is built elsewhere; see requirements-data.txt for datagen/)
+laya @ git+https://github.com/NandhaKishorM/laya.git@80a1da1fa5448ea12163f4d977935625a0aea670
+matplotlib==3.10.7              # training/plot_training.py (loss / LR curves)
+fuzzywuzzy==0.18.0              # evaluation/bioml_rank.py --baseline fuzzy
+python-Levenshtein==0.27.5
